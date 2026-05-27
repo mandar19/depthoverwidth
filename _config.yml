@@ -5,9 +5,8 @@ author:
   name: Mandar Kulkarni
   bio: 15+ years in Salesforce architecture. Now building with Spring Boot, gRPC, and Project Reactor. Always learning.
   github: https://github.com/YOUR_GITHUB_USERNAME
-  linkedin: https://linkedin.com/in/YOUR_LINKEDIN
-  trailhead: https://trailhead.salesforce.com/en/me/YOUR_TRAILHEAD
-  appexchange: https://appexchange.salesforce.com/YOUR_APP
+  linkedin: https://www.linkedin.com/in/mandar-kulkarni-3b833316/
+  trailhead: https://www.salesforce.com/trailblazer/koolmforce
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
