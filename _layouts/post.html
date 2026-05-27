@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="post-full">
+  <header class="post-header">
+    <div class="post-header-inner">
+      <div class="post-meta-top">
+        {% if page.tags.first %}
+        <span class="post-category">{{ page.tags.first }}</span>
+        {% endif %}
+        <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
+      </div>
+      <h1 class="post-title-full">{{ page.title }}</h1>
+      {% if page.excerpt %}
+      <p class="post-subtitle">{{ page.excerpt | strip_html }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-body">
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-footer-inner">
+      <div class="back-link">
+        <a href="/">← Back to writing</a>
+      </div>
+      {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </footer>
+</article>

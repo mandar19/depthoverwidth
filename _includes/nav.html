@@ -1,0 +1,10 @@
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">depth<em>over</em>width</a>
+    <div class="nav-links">
+      <a href="/" {% if page.url == '/' %}class="active"{% endif %}>writing</a>
+      <a href="/projects" {% if page.url == '/projects/' %}class="active"{% endif %}>projects</a>
+      <a href="/about" {% if page.url == '/about/' %}class="active"{% endif %}>about</a>
+    </div>
+  </div>
+</nav>
