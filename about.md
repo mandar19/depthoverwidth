@@ -11,12 +11,24 @@ title: About
 
     <div class="about-grid">
       <div class="about-content">
-        <p>I'm Mandar Kulkarni — a Salesforce architect with 15+ years of experience, now spending most of my time in the open source world with Spring Boot, gRPC, Project Reactor, and distributed systems.</p>
-
-        <p>This site is where I think out loud. I write about architecture, reactive programming, agentic systems, and the career decisions that come with being a technologist in a fast-moving industry.</p>
-
-        <p>I'm an introvert who'd rather teach than self-promote. So everything here is framed as: here's what I learned, here's how I learned it, here's what surprised me. Not a highlight reel — a learning log.</p>
-
+        <p>
+        I'm Mandar — a Salesforce architect (and an engineer at heart).
+        I spent more than 16 years in Salesforce ecosystem. If I remember correctly, I started my journey when sControls were depricated and Salesforce launched Visualforce.
+        </p>
+        <p>
+        Those days, it was hard to find resources and we had to rely on documentation and community forums.
+        Even the communities were small, it was like living in a small town :). 
+        We recognized most of community members and it was a great way to learn and grow.
+        The platform has evolved so much since then, and I've had the privilege of being part of that journey.
+        Though I have worked on platform for so many years, I do have my critics about the platform :)
+        </p>
+        <p>
+        Apart from Salesforce, I'm also interested in open source, agentic systems, and reactive programming.
+        The reason for coming up with this blog is to share my knowledge (whatever little I have) and experience.
+        I hope this will be helpful to others who are also interested in these areas. 
+        I know with AI knowledge has become a commodity and its important to focus on the human side of building and sharing insights.
+        </p>
+        
         <h2>Certifications</h2>
         <ul class="cert-list">
           <li>Salesforce Certified System Architect</li>
