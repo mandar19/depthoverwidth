@@ -73,7 +73,7 @@ If you want the platform-level detail on how selectivity thresholds are derived,
 3. Read the output: sObject cardinality, leading operation type, and cost.
 4. Target a cost below 1.0. If you're above it, look for a more selective field to filter or index on.
 
-**A few field-level gotchas worth knowing up front:** `CreatedDate`, `SystemModstamp`, and `LastModifiedDate` are *not* indexed by default. If your query relies heavily on date filtering, plan for that early rather than discovering it after a timeout in production.
+**A few field-level gotchas worth knowing up front:** the platform maintains standard indexes on most objects for `RecordTypeId`, `Division`, `CreatedDate`, `SystemModstamp`, `Name`, `Email` (on Contacts and Leads), all foreign-key relationship fields (lookups and master-detail), and the record `Id` itself. **`LastModifiedDate` is the one that's *not* indexed by default** — if your query relies heavily on filtering by it, plan for that early rather than discovering it after a timeout in production.
 
 ## The Goal
 
