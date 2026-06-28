@@ -35,7 +35,7 @@ Once enabled, a **Query Plan** tab appears next to the Query Editor.
 | **sObject Cardinality** | Total approximate record count for the queried object |
 | **sObject Type** | The primary object the query runs against |
 
-Salesforce continuously runs statistics on your objects so the optimizer can calculate these costs using real, current data distribution — not guesswork.
+Salesforce gathers most statistics weekly, but the system also generates pre-queries that are cached every hour, so the optimizer can calculate these costs using real data distribution - not guesswork.
 
 ## How Query Cost Is Actually Calculated
 
@@ -82,3 +82,9 @@ The point of this tool isn't to memorize terminology — it's to get every query
 ---
 
 *Next in this series: Perspective Manager, the Apex Log Analyzer VS Code extension, and Scale Center — three more tools for diagnosing performance once a query plan alone isn't enough to tell you what's slow.*
+
+
+## References
+- https://help.salesforce.com/s/articleView?id=000385218&type=1
+- https://trailhead.salesforce.com/content/learn/modules/database_basics_dotnet/writing_efficient_queries
+- https://help.salesforce.com/s/articleView?id=000386864&type=1
